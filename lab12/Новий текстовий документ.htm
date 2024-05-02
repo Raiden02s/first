@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація користувача</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Мій особистий блог</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Вхід</a></li>
+                <li><a href="#">Реєстрація</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class ="reg">Реєстрація користувача</h2>
+            <form action="register.php" method="post">
+                <div class="form-group">
+                    <label for="lastname">Прізвище:</label>
+                    <input type="text" id="lastname" name="lastname" required >
+                </div>
+                <div class="form-group">
+                    <label for="firstname">Ім`я:</label>
+                    <input type="text" id="firstname" name="firstname"  required >
+                </div>
+                <div class="form-group">
+                    <label for="login">Логін:</label>
+                    <input type="text" id="login" name="login"  required>
+                </div>
+                <div class="form-group">
+                    <label for="group">Навчальна група:</label>
+                    <input list="groups" id="group" name="group" class="form-control" required >
+                    <datalist id="groups">
+                        <option value="101-ТК">
+                        <option value="102-ТК">
+                        <option value="101-ТН">
+                        <option value="102-ТН">
+                        <option value="103-ТН">
+                      </datalist>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password"  required>
+                </div>
+                <div class="form-group">
+                    <label for="password_confirm">Підтвердження паролю:</label>
+                    <input type="password" id="password_confirm" name="password_confirm"  required>
+                </div>
+                <button type="submit" class="btn btn-primary">Зареєструватись</button>
+            </form>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Всі права захищені.</p>
+    </footer>
+</body>
+</html>
