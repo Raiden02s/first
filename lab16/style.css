@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(0, 0%, 60%);
+}
+.images{
+    font-size: 16px;
+    color: hsl(39, 72%, 56%);
+    font-weight: bold;
+}
+
+a{
+    color:red;
+}
+a:hover{
+    color:blue
+}
+a:active{
+    color: brown;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-label {
+    margin-bottom: 5px;
+}
+
+.input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.input-error {
+    background-color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.input-success {
+    background-color: green;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+

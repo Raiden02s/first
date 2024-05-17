@@ -1,0 +1,32 @@
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        .input-label {
+            margin-bottom: 5px;
+        }
+
+        .input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+
+        .input-error {
+            color: red;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .input-success {
+            color: green;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        body{
+            background-color: hsl(0, 0%, 60%);
+        }

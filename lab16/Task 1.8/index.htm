@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перевірка довжини вводу</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Перевірка довжини вводу</h1>
+
+    <div class="input-container">
+        <label class="input-label">Введіть текст (5 символів):</label>
+        <input type="text" class="input" data-length="5" id="input1">
+        <span class="input-error" id="error1"></span>
+    </div>
+
+    <div class="input-container">
+        <label class="input-label">Введіть текст (10 символів):</label>
+        <input type="text" class="input" data-length="10" id="input2">
+        <span class="input-error" id="error2"></span>
+    </div>
+
+    <div class="input-container">
+        <label class="input-label">Введіть текст (15 символів):</label>
+        <input type="text" class="input" data-length="15" id="input3">
+        <span class="input-error" id="error3"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
