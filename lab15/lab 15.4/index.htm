@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<!--Студент групи 102-ТК  Данилевський О.О.-->
+<meta name="description" content="Лабораторна робота 15.4">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визначення пори року</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Визначення пори року</h1>
+
+    <button onclick="openMonthInput()">Ввести номер місяця</button>
+
+    <div id="monthInput" style="display: none;">
+        <label for="monthNumber">Введіть номер місяця (1-12):</label>
+        <input type="number" id="monthNumber" min="1" max="12">
+        <button onclick="checkMonth()">Перевірити</button>
+    </div>
+
+    <div id="result" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

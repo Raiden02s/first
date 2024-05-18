@@ -1,0 +1,30 @@
+<html>
+  <head>
+<!--Студент групи 102-ТК  Данилевський О.О.-->
+<meta name="description" content="Лабораторна робота 15.2">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+<script>
+  function numbers(до) {
+  let i = 0;
+
+  do {
+    if (i === 0) {
+      document.write(`${i} - це нуль <br>`);
+    } else if (i % 2 === 0) {
+      document.write(`${i} - парне число <br>`);
+    } else {
+      document.write(`${i} - непарне число <br>`);
+    }
+
+    i++;
+  } while (i <= до);
+}
+
+numbers(10);
+</script> 
+  </body>
+</html>

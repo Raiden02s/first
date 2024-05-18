@@ -1,0 +1,31 @@
+<html>
+  <head>
+<!--Студент групи 102-ТК  Данилевський О.О.-->
+<meta name="description" content="Лабораторна робота 15.3">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+<script>
+  const n = 10000;
+
+// Діліть його на 2 стільки раз, поки результат ділення не стане менше 50
+let result = n;
+let counter = 0;
+
+while (result >= 50) {
+  result /= 2;
+  counter++;
+}
+
+// Число яке отримаєте, запишіть в змінну result
+document.write(`Отримане число: ${result} <br>`);
+
+// Порахуйте кількість ітерацій, необхідних для цього і запишіть її в змінну counter
+document.write(`Кількість ітерацій: ${counter}`);
+
+numbers(10);
+</script> 
+  </body>
+</html>
